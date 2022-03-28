@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Subject">
+   <children>
+      <Label layoutX="345.0" layoutY="14.0" prefHeight="38.0" prefWidth="110.0" text="SUBJECTS" textAlignment="CENTER">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TitledPane animated="false" layoutX="27.0" layoutY="90.0" prefHeight="185.0" prefWidth="230.0" text="English">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+        </content>
+      </TitledPane>
+      <TitledPane animated="false" layoutX="280.0" layoutY="91.0" prefHeight="184.0" prefWidth="233.0" text="Spanish">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="280.0" prefWidth="200.0" />
+        </content>
+      </TitledPane>
+      <TitledPane animated="false" layoutX="538.0" layoutY="89.0" prefHeight="185.0" prefWidth="234.0" text="Mathematics">
+         <content>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+         </content></TitledPane>
+      <TitledPane animated="false" layoutX="27.0" layoutY="285.0" prefHeight="185.0" prefWidth="231.0" text="History">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="168.0" prefWidth="229.0" />
+        </content>
+      </TitledPane>
+      <TitledPane animated="false" layoutX="280.0" layoutY="285.0" prefHeight="185.0" prefWidth="234.0" text="Biology">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="92.0" />
+        </content>
+      </TitledPane>
+      <TitledPane animated="false" layoutX="538.0" layoutY="284.0" prefHeight="186.0" prefWidth="234.0" text="Chemistry">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+        </content>
+      </TitledPane>
+   </children>
+</AnchorPane>
