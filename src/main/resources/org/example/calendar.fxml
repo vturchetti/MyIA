@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
-
 
 <AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Calendar">
    <children>
@@ -12,5 +13,156 @@
             <Font size="20.0" />
          </font>
       </Label>
+      <TableView layoutX="187.0" layoutY="181.0" prefHeight="191.0" prefWidth="526.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Sunday">
+               <columns>
+                  <TableColumn prefWidth="75.0" text="1">
+                     <columns>
+                        <TableColumn prefWidth="75.0" text="8">
+                           <columns>
+                              <TableColumn prefWidth="75.0" text="15">
+                                 <columns>
+                                    <TableColumn prefWidth="75.0" text="22">
+                                       <columns>
+                                          <TableColumn prefWidth="75.0" text="29" />
+                                       </columns>
+                                    </TableColumn>
+                                 </columns>
+                              </TableColumn>
+                           </columns>
+                        </TableColumn>
+                     </columns>
+                  </TableColumn>
+               </columns>
+            </TableColumn>
+          <TableColumn prefWidth="75.0" text="Monday">
+               <columns>
+                  <TableColumn prefWidth="75.0" text="2">
+                     <columns>
+                        <TableColumn prefWidth="75.0" text="9">
+                           <columns>
+                              <TableColumn prefWidth="75.0" text="16">
+                                 <columns>
+                                    <TableColumn prefWidth="75.0" text="23">
+                                       <columns>
+                                          <TableColumn prefWidth="75.0" text="30" />
+                                       </columns>
+                                    </TableColumn>
+                                 </columns>
+                              </TableColumn>
+                           </columns>
+                        </TableColumn>
+                     </columns>
+                  </TableColumn>
+               </columns>
+            </TableColumn>
+            <TableColumn prefWidth="75.0" text="Tuesday">
+               <columns>
+                  <TableColumn prefWidth="75.0" text="3">
+                     <columns>
+                        <TableColumn prefWidth="75.0" text="10">
+                           <columns>
+                              <TableColumn prefWidth="75.0" text="17">
+                                 <columns>
+                                    <TableColumn prefWidth="75.0" text="24">
+                                       <columns>
+                                          <TableColumn prefWidth="75.0" text="31" />
+                                       </columns>
+                                    </TableColumn>
+                                 </columns>
+                              </TableColumn>
+                           </columns>
+                        </TableColumn>
+                     </columns>
+                  </TableColumn>
+               </columns>
+            </TableColumn>
+            <TableColumn prefWidth="75.0" text="Wednesday">
+               <columns>
+                  <TableColumn prefWidth="75.0" text="4">
+                     <columns>
+                        <TableColumn prefWidth="75.0" text="11">
+                           <columns>
+                              <TableColumn prefWidth="75.0" text="18">
+                                 <columns>
+                                    <TableColumn prefWidth="75.0" text="25">
+                                       <columns>
+                                          <TableColumn prefWidth="75.0" />
+                                       </columns>
+                                    </TableColumn>
+                                 </columns>
+                              </TableColumn>
+                           </columns>
+                        </TableColumn>
+                     </columns>
+                  </TableColumn>
+               </columns>
+            </TableColumn>
+            <TableColumn prefWidth="75.0" text="Thursday">
+               <columns>
+                  <TableColumn prefWidth="75.0" text="5">
+                     <columns>
+                        <TableColumn prefWidth="75.0" text="12">
+                           <columns>
+                              <TableColumn prefWidth="75.0" text="19">
+                                 <columns>
+                                    <TableColumn prefWidth="75.0" text="26">
+                                       <columns>
+                                          <TableColumn prefWidth="75.0" />
+                                       </columns>
+                                    </TableColumn>
+                                 </columns>
+                              </TableColumn>
+                           </columns>
+                        </TableColumn>
+                     </columns>
+                  </TableColumn>
+               </columns>
+            </TableColumn>
+            <TableColumn prefWidth="75.0" text="Friday">
+               <columns>
+                  <TableColumn prefWidth="75.0" text="6">
+                     <columns>
+                        <TableColumn prefWidth="75.0" text="13">
+                           <columns>
+                              <TableColumn prefWidth="75.0" text="20">
+                                 <columns>
+                                    <TableColumn prefWidth="75.0" text="27">
+                                       <columns>
+                                          <TableColumn prefWidth="75.0" />
+                                       </columns>
+                                    </TableColumn>
+                                 </columns>
+                              </TableColumn>
+                           </columns>
+                        </TableColumn>
+                     </columns>
+                  </TableColumn>
+               </columns>
+            </TableColumn>
+            <TableColumn prefWidth="75.0" text="Saturday">
+               <columns>
+                  <TableColumn prefWidth="75.0" text="7">
+                     <columns>
+                        <TableColumn prefWidth="75.0" text="14">
+                           <columns>
+                              <TableColumn prefWidth="75.0" text="21">
+                                 <columns>
+                                    <TableColumn prefWidth="75.0" text="28">
+                                       <columns>
+                                          <TableColumn prefWidth="75.0" />
+                                       </columns>
+                                    </TableColumn>
+                                 </columns>
+                              </TableColumn>
+                           </columns>
+                        </TableColumn>
+                     </columns>
+                  </TableColumn>
+               </columns>
+            </TableColumn>
+        </columns>
+      </TableView>
    </children>
 </AnchorPane>
