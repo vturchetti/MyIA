@@ -7,6 +7,6 @@
 <AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.SecondaryController">
          <children>
               <Label text="Secondary View" />
-              <Button fx:id="secondaryButton" layoutX="14.0" layoutY="100.0" onAction="#switchToPrimary" text="Switch to Primary View" />
+              <Button fx:id="secondaryButton" layoutX="44.0" layoutY="142.0" onAction="#switchToPrimary" text="Switch to Primary View" />
          </children>
       </AnchorPane>
